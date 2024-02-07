@@ -1,0 +1,49 @@
+.cutugif{
+    display:grid;
+    place-items: center;
+ 
+ }
+
+ body{
+    background-image: url(spider.jpg);
+    background-position: 90px 85px;
+ }
+
+ h2{
+    font-style: italic;
+     margin:auto;
+     width: 50%;
+     padding: 40px;
+     text-align: center;
+ }
+ .que{
+     align-items: center;
+ }
+ .yes{
+      position: absolute;
+      top:73%;
+      right:53%;
+      background-color: rgb(68, 255, 47);
+      border-radius: 15%;
+      border-color: rgb(49, 53, 57);
+      padding: 10px 15px;
+      
+     
+ }
+ .no{
+     position: absolute;
+      top:73%;
+      left:53%;
+      background-color: rgba(255, 0, 0, 0.892);
+      border-radius: 15%;
+      border-color: rgb(49, 53, 57);
+      padding: 10px 15px;
+ }
+ 
+ 
+ @media screen and (max-width:480px) {
+     .cutugif{
+         visibility: visible;
+     }
+     
+ }
